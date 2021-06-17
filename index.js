@@ -12,23 +12,9 @@ const buttonNo = () => {
     }
 }
 
-const buttonMall = () => {
-    const header = document.querySelector('.shopping');
-    const main = document.querySelector('main')
-    header.style.display = 'flex';
-    main.style.display = 'none'
-}
-
-const buttonBeach = () => {
-    const header = document.querySelector('.praia');
-    const main = document.querySelector('main')
-    header.style.display = 'flex';
-    main.style.display = 'none'
-}
-
-const buttonBar = () => {
-    const header = document.querySelector('.bar');
-    const main = document.querySelector('main')
-    header.style.display = 'flex';
+const buttonPlace = (local) => {
+    const reveal = document.querySelector(local);
+    const main = document.querySelector('main');
+    reveal.style.display = 'flex';
     main.style.display = 'none'
 }
