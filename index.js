@@ -6,8 +6,9 @@ const buttonYes = () => {
 }
 
 const buttonNo = () => {
-    if(confirm("Tem certeza que não quer sair comigo, Michelle?")){
+    if(confirm("Tem certeza que não quer sair comigo?")){
         alert ("Ok, bye")
+        window.close()
     }
 }
 
